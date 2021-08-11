@@ -1,7 +1,7 @@
 package chapter4_7;
 
 public class Student {
-    // 静态变量
+    // 静态变量 静态变量一般使用大写
     public static final String PERFIX ="MY NAME IS";
     // 实例变量年龄(属性)
     private int age;
