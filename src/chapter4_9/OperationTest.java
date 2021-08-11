@@ -9,6 +9,7 @@ public class OperationTest {
         int e = a * b;
         int f = a / b;
         int g = a%b;
+        // 注意Java 中 / 默认是整除,若需要得到小数 需要 类似这样的操作 5.0/2，转为高精度
         System.out.println(c); // 25
         System.out.println(d); // -5
         System.out.println(e); // 150

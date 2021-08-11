@@ -27,7 +27,7 @@ public class Student {
     }
     // 自我介绍方法
     public String introduce(){
-        // content 是局部变量 局部变量需要初始化才能使用
+        // content 是局部变量 局部变量需要初始化才能使用,静态变量和实例变量不用初始化，含有默认值
         String content ="SIX SXI";
         return  content;
     }
