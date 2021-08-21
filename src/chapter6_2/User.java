@@ -31,4 +31,9 @@ public class User {
     public String getName(){
         return name;
     }
+    public void run(){
+        this.setAge(10);
+        int age1 = this.getAge();
+        System.out.println(age1);
+    }
 }

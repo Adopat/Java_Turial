@@ -28,6 +28,7 @@ public class MainTest {
         User user1 = new User("张三",10);
         System.out.println(user1.getAge());
         System.out.println(user1.getName());
+        user1.run();
     }
 
     /**
