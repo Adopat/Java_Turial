@@ -1,5 +1,7 @@
 package chapter7_6;
 
+import java.util.ArrayList;
+
 public class UserNotEnoughException extends Exception{
     private int code;
     private  String msg;
