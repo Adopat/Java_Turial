@@ -1,4 +1,4 @@
-package chapter8_4;
+package chapter8;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -17,6 +17,9 @@ public class ListTest {
         // 更新元素
         arrayList.set(0,"justin");
         System.out.println(arrayList);
+        // 返回大小
+        int size = arrayList.size();
+        System.out.println("size ="+size);
         // 通过索引删除元素
         String removeString = arrayList.remove(0);
         System.out.println(removeString);
