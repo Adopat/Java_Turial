@@ -20,6 +20,7 @@ public class CollectionsTest1 {
         list.add(new Student("小绿",30));
         list.add(new Student("小蓝",25));
         list.add(new Student("小黄",41));
+        // 集合对象取最大
         Student stu = Collections.max(list, new Comparator<Student>() {
             @Override
             // o2代表的是后传入的元素,后传入的元素比之前的元素小，所以小的元素在后，是升序
