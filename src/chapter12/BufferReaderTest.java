@@ -33,7 +33,7 @@ public class BufferReaderTest  {
             return;
         }
         String str="";
-        // readLine方法
+        // readLine方法,readLine 使用方便些
         while ((str = reader.readLine())!=null){
             System.out.println(str);
         }

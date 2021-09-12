@@ -8,6 +8,7 @@ import java.io.InputStreamReader;
 /**
  * InputStreamReader 一般使用在涉及到中文操作的场景中
  * 将内容输出到持续存储设备上为 编码,从持久性设备中为解码,编码和解码不一致会导致乱码
+ * InputStreamReader 是字节流 到字符流的桥梁 读取 解码，字节存储二进制
  */
 public class InpurStreamReaderTest {
     public static void main(String[] args) throws Exception{
