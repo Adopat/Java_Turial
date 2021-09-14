@@ -21,6 +21,9 @@ public class BufferReaderTest  {
         while ((size = reader.read(buff,0,buff.length))!=-1){
             System.out.println(new String(buff,0,size));
         }
+//        while((size = reader.read(buff))!=-1){
+//            System.out.println(new String(buff,0,size));
+//        }
         reader.close();
     }
     public static void test1(String path) throws Exception{
