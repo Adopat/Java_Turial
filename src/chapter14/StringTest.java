@@ -5,15 +5,15 @@ import java.util.Locale;
 
 public class StringTest {
     public static void main(String[] args){
-        // 定义字符串的方法
-        String str1 = "www.baidu.com";
-        String str2 = "www.baidu.com";
-        String str= new String("www.baidu.com");
-        String str3 = "www.baidu.com";
-        // 比较字符串地址值
-        System.out.println("str1和str2地址值一样吗 ："+(str1==str2));
-       System.out.println("str1和str3地址值一样吗 ："+(str1==str3));
-       System.out.println("str1和str地址值一样吗 ："+(str1==str));
+//        // 定义字符串的方法
+//        String str1 = "www.baidu.com";
+//        String str2 = "www.baidu.com";
+//        String str= new String("www.baidu.com");
+//        String str3 = "www.baidu.com";
+//        // 比较字符串地址值
+//        System.out.println("str1和str2地址值一样吗 ："+(str1==str2));
+//       System.out.println("str1和str3地址值一样吗 ："+(str1==str3));
+//       System.out.println("str1和str地址值一样吗 ："+(str1==str));
         test();
 
     }
