@@ -55,6 +55,18 @@ public class StringTest {
         System.out.println(" helloworld ".length());
         System.out.println("去除空格后的 str11Strim ="+str11Strim);
         System.out.println(str11Strim.length());
+        // 其他类型和字符串互相转换
+        boolean bool = Boolean.getBoolean("false");
+        System.out.println(bool);
+        int interger = Integer.parseInt("20");
+        System.out.println(interger);
+        long LongInt = Long.parseLong("1024");
+        System.out.println(LongInt);
+        float f = Float.parseFloat("1.521");
+        System.out.println(f);
+        double d = Double.parseDouble("1.521213");
+        System.out.println(d);
+
 
 
     }
