@@ -29,8 +29,9 @@ public class OutputStreamWriterTest {
     // 使用GBK解码进行文件读取，字节流转 字符流
     public static void test1(String path) throws Exception{
         InputStream is = new FileInputStream(path);
-        // 如果这里使用 utf8进行解码，会出现乱码的情况，因为编码方式是GBK
+        // 如果这里使用 utf8进行解码，会出现乱码的情况，因为编码方式是GBK,将字节流转为字符流
         InputStreamReader isr = new InputStreamReader(is,"GBK");
+        // 使用BuffereReader读取字符流
         BufferedReader bfr = new BufferedReader(isr);
         String line;
         while((line = bfr.readLine())!=null){
