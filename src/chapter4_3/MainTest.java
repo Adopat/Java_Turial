@@ -29,5 +29,26 @@ public class MainTest {
         System.out.println(d);
         System.out.println(bool);
         System.out.println(ch);
+        // 记住以下ASCI码
+        System.out.println("=======ASCI码=============");
+        System.out.println((int)'A');// 65
+        System.out.println((int)'Z');// 90
+        System.out.println((int)'a');// 97
+        System.out.println((int)'z');//122
+        System.out.println((int)'0');//48
+        System.out.println((int)' ');//75
+        // 字符运算
+        System.out.println("========字符运算===============");
+        System.out.println('A'+'Z');//155
+        System.out.println(ch+10);//75
+        // 获取取值范围 使用对应的包装类
+        System.out.println("===================================");
+        test();
+    }
+    public static void test(){
+        System.out.println("byte 取值范围："+Byte.MIN_VALUE+"-"+Byte.MAX_VALUE); //byte 取值范围：-128-127
+        System.out.println("short 取值范围："+Short.MIN_VALUE+"-"+Short.MAX_VALUE);// short 取值范围：-32768-32767
+        System.out.println("int 取值范围："+Integer.MIN_VALUE+"-"+Integer.MAX_VALUE);// int 取值范围：-2147483648-2147483647
+        System.out.println("long 取值范围："+Long.MIN_VALUE+"-"+Long.MAX_VALUE);//long 取值范围：-9223372036854775808-9223372036854775807
     }
 }
