@@ -1,5 +1,5 @@
 import java.util.Date;
-import com.nvt.Student;
+import com.ali.Student;
 /**
  * 定义一个user类
  * @auth:Justin

@@ -1,4 +1,4 @@
-package com.nvt;
+package com.ali;
 
 public class Student {
     public void run(){
